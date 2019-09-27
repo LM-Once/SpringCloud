@@ -1,0 +1,12 @@
+server:
+  port: 9003
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9001/eureka/
+  instance:
+    instance-id: order-consumer9003
+    prefer-ip-address: true
+spring:
+  application:
+  name: SERVICE-CONSUMER
